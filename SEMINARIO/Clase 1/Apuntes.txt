@@ -1,0 +1,16 @@
+libros:
+-estrategias para el liderzago competitivo
+-marketing
+-pps: practicas profesionales supervisadas
+	-tips: relacionadas con la actividad profesional
+	-para los que no esten trabajando
+	-proponer esto en sus trabajos -> superior a ustedes
+	-proyecto que tenga formato de proyecto de 200 horas (en que proyecto estan trabajando y cuales tareas realizan)
+-realizar las actividades por clase
+-classroom -> colgar avances y estan los apuntes, via de comunicacion
+-cronograma:
+	-
+avances:
+1. 28 abril
+2. 26 mayo
+3. 23 junio
