@@ -9,7 +9,38 @@ libros:
 -realizar las actividades por clase
 -classroom -> colgar avances y estan los apuntes, via de comunicacion
 -cronograma:
-	-
+-pensar como emprendimiento, presentar idea
+-se lanze a servir a cierto mercado especifico
+-mercado de negocio o de consumidores
+-innovacion: disruptivo en el mercado que no existe
+-propuesta del lado de customizar en base al cliente -> solo a grupo selecto de consumidores y diferenciarse de nuestros principales competidores
+-diferenciar industria nuestra que la de los competidores -> industria origen (software)
+-3 propuestas con la presentacion de un canvas -> metodologia para presentar ideas de negocio -> 9 cositas
+-propuestas:
+	-educacion online y offline
+	-telemedicina
+	-digitalizacion de procesos
+	-fidelizacion de clientes
+	-logistica
+	-cambio climatico
+	-streaming
+	-turismo
+definir 
+	-empresa (sw factory - empresa de robotica - NO APLICACION)
+	-mercado objetivo
+	-propuesta de valor
+Canvas:
+	-segmento de mercado: oportunidad y necesidad
+	-propuesta de valor: solucion o servicio a eso
+	-canales: web - app - canal fisico
+	-relacion: a traves de como lo obtiene -> periodo de prueba o redes sociales (ig, tw etc)
+	-flujo de ingresos: venta directa - suscripcion
+	-recursos claves: si tengo una empresa que hace sw -> equipo de trabajo multidisciplinario con cierta especializacion
+	-actividades: programacion - `rueba -presentacion
+	-red de partners: socios estrategicos -> ibm - microsoft - inversionistas
+	-estructura de costos: costos mas importantes -> infra tecnologica - pago de recursos humanos
+	
+
 avances:
 1. 28 abril
 2. 26 mayo
