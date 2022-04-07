@@ -36,11 +36,16 @@ Canvas:
 	-relacion: a traves de como lo obtiene -> periodo de prueba o redes sociales (ig, tw etc)
 	-flujo de ingresos: venta directa - suscripcion
 	-recursos claves: si tengo una empresa que hace sw -> equipo de trabajo multidisciplinario con cierta especializacion
-	-actividades: programacion - `rueba -presentacion
+	-actividades: programacion - prueba -presentacion
 	-red de partners: socios estrategicos -> ibm - microsoft - inversionistas
 	-estructura de costos: costos mas importantes -> infra tecnologica - pago de recursos humanos
-	
-
+-punto del 1 al 7, 10 y 11
+-a partir de la idea de negocio darle una descripcion del negocio y que lo hace unico
+-comparar cadena de valor con competidor directo y en base a eso surge el FODA
+-versionalizar el servicio, premimum - medium - basic
+-segmentacion: tenemos negocios o consumidores y hacer segmentacion
+-marketing -> precio, promocion
+-organizacion requerida -> estrategia de negocio
 avances:
 1. 28 abril
 2. 26 mayo
