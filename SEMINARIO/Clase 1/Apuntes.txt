@@ -46,6 +46,7 @@ Canvas:
 -segmentacion: tenemos negocios o consumidores y hacer segmentacion
 -marketing -> precio, promocion
 -organizacion requerida -> estrategia de negocio
+-parcial -> cuestionario
 avances:
 1. 28 abril
 2. 26 mayo
