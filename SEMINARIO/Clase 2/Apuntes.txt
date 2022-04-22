@@ -76,8 +76,36 @@ NO mas de 3 ideas por parrafo
 
 Scali:
 
-Soluciones de hardware para locales de venta
-
-Solucion de gestion para empresas que especificamente son comercios de venta de hardware (que solo en ciudad de buenos aires es de 80 locales).
+Solucion de gestion para empresas que especificamente son comercios de venta de hardware porque vimos que esta muy desordenada y lalala (que solo en ciudad de buenos aires es de 80 locales).
 y necesita este tipo de SW para poder ordenar sus procesos y poder automatizar ciertos procesos manuales que son muy complejos y tienen mucho error humano, 
 por lo tanto se pierde bastante tiempo y dinero
+
+mision:
+ marco temporal -> en cuanto vamos a enfocar el modelo de negocio 3 años, debido a las variantes en variables economicas y en variables tecnologicas en 3 años vamos a
+ alcance -> alcance de producto/servicios -> explicacion de cada uno de los servicios junto con su versionado -> importancia estrategica segun el producto
+         -> alcance de mercado -> hablar del mercado en general y luego ponerle foco al nicho que serian las empresas -> locales de venta 
+	 -> alcance de geografico -> zonas densamente pobladas o pocamente pobladas o logisitica
+	 -> Competencias unicas -> diferenciacion frente a los competidores, al competidor le tomaria mucho tiempo hacer la solucion como la mia tambien cuenta
+ desafios: obtener cuota de mercado - conformar equipo multidisciplinario
+
+quienes somos que hacemos para quien y como -> 4 o 5 reglones
+
+vision: como nos vemos de aca a 10 años, nos vemos a ver como empresa lider de solucion robotica en argentina por ejemplo
+
+Hasta el 1.7 esta bien
+
+tomar la industria de desarrollo de sw
+
+metodo de factores internos hax -> tecnologico - legal - economico - medio ambiental si corresponde -> datos actuales y proyectivos, segun la consultora tal el dato es este y la proyeccion seria el siguiente
+
+informacion en anexos -> ejemplo ley del conocimiento ver en anexo tal
+
+cambiar los colores de los cuadritos
+
+oportunidad/amenaza -> explicacion -> la inflacion es una amenaza debido a que...
+
+cadena de valor -> actividades que son comunes a todas las empresas que fabrican productos -> usar la cadena de valor de servicio
+
+primer parcial como se aplica lo de la cadena de valor que son 5 pasos
+
+competidores -> ver el mismo alcance del cliente o la necesidad
