@@ -1,0 +1,83 @@
+Vilaboa:
+
+patrones:
+singleton
+composite -> familia patente (revisar relacion DER con diagrama de clases pero a vilaboa no le importe)
+
+casos de uso al final para poder relacionarlo bien, solamente la ficha descriptiva del caso de uso
+
+no le interesa digito verificador - backup 
+
+si le interesa las politicas de backup y que voy a hacer con las copias -> cuando y como, como administrar las copias
+(politica de resguardo -> parciales o completos, cintas de 3 backups)
+
+completo -> domingo porque es chiquito
+parcial -> todos los dias a la madrugada
+
+multidioma -> segunda carpeta con todo el idioma o archivos de recursos
+
+vender el producto como profesionales
+
+se espera:
+	carpeta -> documento que avala el producto
+
+No HACER:
+	No hacer tutoriales -> no explicar quien creo tal plptaforma
+	No poner que es JS o una BD
+	Si poner criterios para usar X tecnologia -> usamos sql server por X razon
+
+Guia: ayuda para empezar a escribir -> no todos hay que completarlos
+Abreviaturas: palabras que usa el cliente -> CPU - GPU - PSU por ejemplo, NO poner UML
+Si el punto no se usa, se saca y se renumera
+Carpeta sencilla
+
+con vilaboa solo punto 10
+
+entrega temprana: alcance del sistema -> es la venta comercial del producto -> mas de 5 reglones y menos de 20
+
+MINIMA participacion del programador -> que no tomes decisiones
+
+Negocio -> valor de la solucion tecnologica al negocio
+
+hablar con el cliente -> lista de requerimientos -> presupuesto -> negociacion con el cliente -> integracion por modulos
+
+perfil asociado al requerimieto -> perfil asociado a grupo de requerimientos -> escenarios que ve cada usuario -> modulos -> modulos dentro del alcance y fuera del alcance -> con la vista completa -> ver todo el sistema
+	-justificacion por presupuesto, por tiempo, por iterativo -> NO porque sea dificil
+	-Uso solo de lo que genera conocimiento
+Orden:
+	1 lista de requerimientos
+	2 analisis
+	3 alcance
+
+Procesos:
+	1 proceso de venta -> orden de compra - factura - remito
+	2 proceso de devolucion
+	3 proceso de armado del pedido
+
+Plataforma:
+	Si tengo 1 servidor solo - 1 servidor web y 1 servidor para sql - servidores con load balancing
+
+Seguridad:
+	seguridad de aplicacion (sql injection politica - cambio de cabecera de la pagina - esquema de seguridad de la red -> SSL todos - si virtualizamos ) - seguridad de red - seguridad de BD ( usuarios de BD y SP )
+
+diagrama general de casos de uso -> optativo y al final del caso de uso
+
+especificacion CU - pantalla - diagrama de secuencia
+
+pantalla -> usar mock
+
+ver guia de abordaje bibliografico
+
+entrega es digital
+
+manejo de bordes y agrandamiento de imagen
+
+NO mas de 3 ideas por parrafo
+
+Scali:
+
+Soluciones de hardware para locales de venta
+
+Solucion de gestion para empresas que especificamente son comercios de venta de hardware (que solo en ciudad de buenos aires es de 80 locales).
+y necesita este tipo de SW para poder ordenar sus procesos y poder automatizar ciertos procesos manuales que son muy complejos y tienen mucho error humano, 
+por lo tanto se pierde bastante tiempo y dinero
