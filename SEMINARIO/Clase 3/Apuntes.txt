@@ -1,0 +1,51 @@
+definir cierto perfil de cliente que creemos que tiene potencial -> me va a permitir usar mis recursos de manera eficiente -> generar rentabilidad
+empredimiento que recien arranca -> deberiamos enfocarnos en un nicho de mercado
+criterios para saber segmentar
+	si es rentable
+	si se puede identificar y tenemos datos de ese mercado
+	mercado es accesible
+	que tenga capacidad de respuesta -> si hago accion de marketing el mercado responde
+Cuantitavamente y cualitativamente
+marketing -> llegar a los consumidores -> estrategia de producto - de precios - de distribucion - promocion 
+variables de la segmentacion de empresas
+bases para la segmentacion
+	macro segmetacion
+		ubicacion
+		tipo de empresa -> metalurgica - farmaceutica
+		tamano de la empresa -> no poner pymes -> poner un tamano objetivo -> apuntar a medianas y pequenas -> preguntar grandes -> ver temas de facturacion
+			(buscar info y hablarlo con el profe) -> cpyme
+		Uso del producto -> servicio que usa al cliente -> uso dentro de la misma
+		
+	micro segmetacion
+		criterio de compra -> si compra por precio o por calidad
+		estrategias de compra
+		importancia -> nuestro servicio aporta valor estrategico
+		caracteristicas personales -> si se encarga el dueno o un gerente de ventas
+
+seleccionar mercado
+escoger base o bases -> ubicacion -> general
+descriptores -> sexo, religion, edad -> especifico
+Perfilar y analizar los segmentos
+seleccionar los mercados meta
+	no diferenciado -> vendo a todo el mundo
+	concentrado -> apuntamos a un segmento de mercado -> aca estamos nosotros
+	multiples -> le apunto a varios segmentos -> cada uno con su unidad de negocio
+hacer marketing
+
+villaboa:
+mi proyecto es un sw web enfocado hacia locales de venta de hardware para vender computadoras, este sw es interno para el local de venta
+seria un ERP con bastante mas inteligencia acerca de los procesos de negocio
+
+mi proyecto es un ERP enfocado a los locales de venta de computadoras pero planteo hacerlo con mas inteligencia
+que te arme el presupuesto
+que te ayude durante el armado
+y ayude durante la entrega de la misma y posterior postventa
+
+eso se vende por suscripcion  
+
+
+
+
+
+
+	
