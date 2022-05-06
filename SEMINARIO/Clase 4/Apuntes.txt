@@ -21,6 +21,54 @@ definir de manera funcional ->
 items -> descripcion - responsable - puestos NO personas
 indicador ventas objetivo vs ventas obtenidas
 indicadores de publico -> medir servicio contra mejor practica
+definir 2 o 3 indicadores
+
+al principio darle mas bola al basico y al medium
+
+al mercado que apuntamos es al tipo de..
+
+segmento -> un tipo de empresa de cierto tamaño
+
+alcance tiene que ver con el 1.6 -> ver la oportunidad de mercado -> se vio generado por el desorden -> cuantas empresas son, tiene posibilidades ?
+	actualmente hay tantos X empresas ubicadas en cierta geografia -> hay una necesidad no atendida de manera customizada para el sector
+	
+nuestra empresa se dedica a tal cosa y consideramos estar en la industria del sw -> nada que ver con el negocio
+
+industria del sw -> favorecido por estas regulaciones
+
+propuesta tecnologica: no poner las listas de requerimientos sino poner que hace el sistema de una manera mas comercial
+
+clase 7 -> hasta 10.5 de la guia
+
+1 entrevista
+2 hsgo los requerimientos
+3 validar con el cliente
+
+licitacion charla con el cliente relevo situacion y como ver sus necesidades -> preguntas - observacion de campo - formularioss -> conocer el contexto para pasarselo a los devs
+
+1 entrevista abierta
+2 ver todo lo que escribimos y ver situaciones que no estan claras
+3 validarlo con el cliente para acotar el conflicto -> usando vocabulario tecnico -> vocabulario
+4 validar el documento contra el mismo cliente
+5 obtenemos especificaciones de requerimiento -> avaladas por el cliente luego de la validacion
+	datos de entrada -> proceso -> datos de salida
+6 especificacion de requerimiento -> requisito funcional y no funcional
+7 clasificar CU por mas importantes o menos en base a los riesgos
+
+especificaciones exagerar con todas las funcionalidades
+
+entrar en ultra en la parte de bibliografia
+
+especificacion de requermiento: especificar el proceso
+
+objeto con TODOS los metodos
+
+
+
+
+
+
+
 
 
 	
