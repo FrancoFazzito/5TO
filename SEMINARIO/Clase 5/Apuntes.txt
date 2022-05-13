@@ -36,4 +36,5 @@ comparar
 
 fortaleza (poner fuerte en cadena de valor con respecto al otro) y debilidades (poner debil en cadena de valor con respecto al otro) en base a las actividades
 
+villaboa:
 	
