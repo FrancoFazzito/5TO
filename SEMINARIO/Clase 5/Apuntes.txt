@@ -1,0 +1,39 @@
+terminar el punto 4 en cuantas empresas en cuantos son y cuanto gastan en nuestro servicio
+puestos NO son personas
+programas generales
+	estrategia administracion -> hacer cuadrito resumen de las 4 y luego desarrollar
+		estrategia administracion de ventas
+		estrategia administracion de compras
+		estrategia administracion de pagos y cobranzas
+		estrategia gestion contable y de RRHH
+	estrategia marketing
+		estrategia producto servicio
+		estrategia de precios
+		estrategia de promocion
+		estrategia de distribucion -> canales de comunicacion -> si es web si es fisico
+	estrategia tecnologia (tomo como soporte) ( no me meto con el sw -> eso va en produccion)
+		estrategia de sw (seria sw como herramienta para desarrollo o administracion -> seria los de infra)
+		estrategia de hw
+		estrategia en seguridad informatica y telecomunicaciones
+	estrategia produccion
+		estrategia de desarrollo producto/servicio
+		prestacion de servicio
+		soporte
+		si se considera importante -> I + D
+		si es producto -> temas de logistica -> logistica de entrada y salida
+	estrategia comercial
+		ventas -> manejo grupo de ventas - manejo con el cliente de la venta
+		post venta
+sino llegamos con el personal o no estamos especializados podemos tercerizar (ejemplo: contador ter)
+asumir los costos de cada estrategia
+
+amenaza -> inflacion -> dentro de la estrategia de administracion podemos poner que vamos a llevar un control de la estructura de costos
+
+poner los pasos para aplicar la cadena de valor
+identificar competidores
+analizo mi cadena de valor con respecto a mis actividades y las de mis competidores
+comparar
+
+fortaleza (poner fuerte en cadena de valor con respecto al otro) y debilidades (poner debil en cadena de valor con respecto al otro) en base a las actividades
+
+	
