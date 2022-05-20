@@ -1,0 +1,69 @@
+servicio es un intangible
+producto es tangible
+combinacion de ambos puede ser un restaurant
+
+productos
+	productos de consumo
+	productos de negocio
+	productos de conveniencia
+	productos buscados
+	productos de especialidad
+	productos no buscados
+
+servicios
+	intangibles
+	inseparables -> incapacidad de separar
+	heterogeneos -> se consume comienza y termina ahi
+	perecederos -> no se pueden guardar
+
+calidad de servicio
+	confiabilidad
+	sensibilidad -> sensible a las necesidades del cliente
+	seguridad
+	empatia
+	tangible
+
+productos unitarios, lineas, mezclas de productos -> productos -> 1 linea con profundidad de 4 servicios
+
+ciclo de vida -> crecimiento -> dentro sw de gestion estamos lanzando algo nuevo
+
+pegar el cuadro y marcar en que ciclo de vida estoy -> proponer alguna estrategia en base a esto
+
+nombres de la marca
+	facil de pronunciar
+	facil de reconocer
+	facil de recordar
+	corto
+	distintivo, singular
+	describe el producto
+	describe el uso del producto
+	connotacion positiva
+	refuerza la imagen positiva
+
+darle nombre y logotipo al servicio
+		
+precio es lo que se da de intercambio
+ingreso el precio que se le cobra al cliente por la cantidad
+utilidad los ingresos menos los gastos
+
+objetivos
+	orientado a esas utilidades -> maximizar utilidades -> menos costos (sobretodo fijos) -> transformar costos fijos en variables
+	orientado a las ventas -> 
+
+percepcion precio calidad -> sensibilidad al precio
+
+costo del nuevo sw sumado al costo del cambio
+
+analisis nuestros costos - sensibilidad y despues las estrategias
+
+costos fijos y variables
+clientes  
+competencia comparacion -> no tiene que ir nuestros solo los precios de nuestros competidores
+
+descremado -> salgo con precio alto y voy bajando
+
+neutra -> usamos esta 10%+- del mercado
+
+penetracion -> salgo con precio agresivo y voy subiendo el precio
+
+lista de precios
