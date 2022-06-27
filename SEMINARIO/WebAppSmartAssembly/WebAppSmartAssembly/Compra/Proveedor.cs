@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace WebAppSmartAssembly.RealizarCompra
+namespace WebAppSmartAssembly
 {
     public class Proveedor
     {
         public Proveedor()
         {
         }
-
-        public int Id { get; set; }
 
         public List<Proveedor> GetProveedores()
         {
@@ -21,11 +19,11 @@ namespace WebAppSmartAssembly.RealizarCompra
             return DAL.GetComponentesAlaVenta(Id);
         }
 
-        public List<ComponenteProveedor> GetComponentesMasBaratosPorProveedor()
+        public List<ItemCompra> GetComponentesMasBaratosPorProveedor()
         {
             var proveedores = new Proveedor().GetProveedores();
             var componentes = new Componente().GetComponentesConBajoStock();
-            var componentesAcomprar = new List<ComponenteProveedor>();
+            var componentesAcomprar = new List<ItemCompra>();
             foreach (var componente in componentes)
             {
                 decimal precioMasBajo = 0;
@@ -43,7 +41,7 @@ namespace WebAppSmartAssembly.RealizarCompra
                     }
                 }
                 componente.Precio = precioMasBajo;
-                componentesAcomprar.Add(new ComponenteProveedor(componente, proveedorPrecioMasBajo));
+                componentesAcomprar.Add(new ItemCompra(componente, proveedorPrecioMasBajo));
             }
             return componentesAcomprar;
         }
@@ -52,5 +50,13 @@ namespace WebAppSmartAssembly.RealizarCompra
         {
             return DAL.GetProveedorPorId(id);
         }
+
+        public int Id { get; set; }
+
+        public int Nombre { get; set; }
+
+        public int Email { get; set; }
+
+        public int CBU { get; set; }
     }
 }

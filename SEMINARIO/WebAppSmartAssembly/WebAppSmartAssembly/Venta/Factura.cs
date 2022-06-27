@@ -5,8 +5,8 @@ namespace WebAppSmartAssembly
 {
     internal class Factura
     {
-        private Pedido pedido;
-        private SmtpClient clienteSmtp;
+        private readonly Pedido pedido;
+        private readonly SmtpClient clienteSmtp;
 
         public Factura(Pedido pedido)
         {

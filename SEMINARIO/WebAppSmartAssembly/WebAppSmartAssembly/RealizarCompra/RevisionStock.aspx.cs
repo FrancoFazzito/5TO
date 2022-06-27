@@ -6,8 +6,8 @@ namespace WebAppSmartAssembly.RealizarCompra
 {
     public partial class RevisionStock : System.Web.UI.Page
     {
-        private List<ComponenteProveedor> componentesProveedoresObtenidos;
-        private List<ComponenteProveedor> componentesProveedoresCargados;
+        private List<ItemCompra> componentesProveedoresObtenidos;
+        private List<ItemCompra> componentesProveedoresCargados;
         private List<ComponenteVista> componentesVista;
         private Compra compra;
 
@@ -15,7 +15,7 @@ namespace WebAppSmartAssembly.RealizarCompra
         {
             Proveedor proveedor = new Proveedor();
             componentesProveedoresObtenidos = proveedor.GetComponentesMasBaratosPorProveedor();
-            componentesProveedoresCargados = new List<ComponenteProveedor>();
+            componentesProveedoresCargados = new List<ItemCompra>();
 
             //crear objetos vista con esa coleccion
             componentesVista = new List<ComponenteVista>
@@ -36,7 +36,7 @@ namespace WebAppSmartAssembly.RealizarCompra
                     Tipo = "cpu",
                     Socket = "AM4",
                     StockBajo = 2,
-                    Proveedor = "Import trucho SA"
+                    Proveedor = "Import test SA"
                 },
                 new ComponenteVista(new Componente())
                 {
@@ -45,7 +45,7 @@ namespace WebAppSmartAssembly.RealizarCompra
                     Tipo = "cpu",
                     Socket = "AM4",
                     StockBajo = 2,
-                    Proveedor = "Import trucho SA"
+                    Proveedor = "Import test SA"
                 }
             };
 
@@ -55,7 +55,7 @@ namespace WebAppSmartAssembly.RealizarCompra
 
         protected void DataGridButton1_Click(object sender, EventArgs e)
         {
-            componentesProveedoresCargados.Add(new ComponenteProveedor
+            componentesProveedoresCargados.Add(new ItemCompra
             (
                 new Componente(),//componente index
                 new Proveedor()//proveedor index

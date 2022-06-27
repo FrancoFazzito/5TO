@@ -2,6 +2,13 @@
 {
     public class CompraVista 
     {
+        private readonly Compra compra;
+
+        public CompraVista(Compra compra)
+        {
+            this.compra = compra;
+        }
+
         public string Proveedor { get; set; }
 
         public decimal PrecioAPagar

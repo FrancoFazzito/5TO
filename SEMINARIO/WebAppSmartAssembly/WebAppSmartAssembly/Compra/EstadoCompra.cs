@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WebAppSmartAssembly.RealizarCompra
+namespace WebAppSmartAssembly
 {
     public class EstadoCompra
     {

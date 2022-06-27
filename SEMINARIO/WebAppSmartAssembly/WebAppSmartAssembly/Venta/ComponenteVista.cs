@@ -2,7 +2,7 @@
 {
     internal class ComponenteVista
     {
-        private Componente componente;
+        private readonly Componente componente;
 
         public ComponenteVista(Componente componente)
         {

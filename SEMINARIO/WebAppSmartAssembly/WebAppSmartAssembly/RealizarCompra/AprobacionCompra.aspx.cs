@@ -16,7 +16,7 @@ namespace WebAppSmartAssembly.RealizarCompra
             //crear objetos vista con esa coleccion
             List<CompraVista> compraVistas = new List<CompraVista>
             {
-                new CompraVista()
+                new CompraVista(new Compra())
                 {
                     Id = 1,
                     Estado = "En revision",
@@ -24,15 +24,15 @@ namespace WebAppSmartAssembly.RealizarCompra
                     PrecioAPagar = 1000000,
                     Proveedor = "Jose SRL"
                 },
-                new CompraVista()
+                new CompraVista(new Compra())
                 {
                     Id = 2,
                     Estado = "En revision",
                     EstaPagada = false,
                     PrecioAPagar = 1000000,
-                    Proveedor = "Import trucho SA"
+                    Proveedor = "Import test SA"
                 },
-                new CompraVista()
+                new CompraVista(new Compra())
                 {
                     Id = 3,
                     Estado = "En revision",

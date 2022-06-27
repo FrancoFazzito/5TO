@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace WebAppSmartAssembly.RealizarCompra
+namespace WebAppSmartAssembly
 {
     internal class OrdenDePago
     {
@@ -10,15 +10,26 @@ namespace WebAppSmartAssembly.RealizarCompra
         {
         }
 
-        public OrdenDePago(Proveedor proveedor, List<Componente> componentesRecibidos)
+        public OrdenDePago(Compra compra, Proveedor proveedor, List<Componente> componentesRecibidos)
         {
-            this.Proveedor = proveedor;
+            Compra = compra;
+            Proveedor = proveedor;
             ComponentesRecibidos = componentesRecibidos;
         }
 
-        internal List<OrdenDePago> ObtenerOrdenesDePagoInpagas()
+        public List<OrdenDePago> ObtenerOrdenesDePagoInpagas()
         {
             return DAL.ObtenerOrdenesDePagoInpagas();
+        }
+
+        public void EmitirOrdenDePago()
+        {
+            DAL.CrearOrdenDePago(this);
+        }
+
+        public void MarcarComoPagada()
+        {
+            DAL.MarcarComoPagada(this);
         }
 
         public List<Componente> ComponentesRecibidos { get; }
@@ -36,15 +47,6 @@ namespace WebAppSmartAssembly.RealizarCompra
         }
 
         public Proveedor Proveedor { get; set; }
-
-        internal void EmitirOrdenDePago()
-        {
-            DAL.CrearOrdenDePago(this);
-        }
-
-        internal void MarcarComoPagada()
-        {
-            DAL.MarcarComoPagada(this);
-        }
+        public Compra Compra { get; }
     }
 }

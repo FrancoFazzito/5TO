@@ -14,19 +14,19 @@ namespace WebAppSmartAssembly.RealizarCompra
             List<OrdenDePago> ordenDePago = new OrdenDePago().ObtenerOrdenesDePagoInpagas();
             List<OrdenDePagoVista> ordenesDePago = new List<OrdenDePagoVista>
             {
-                new OrdenDePagoVista()
+                new OrdenDePagoVista(new OrdenDePago())
                 {
                     Proveedor = "jose SRL",
                     TotalAPagar = 10000,
                     EstaPagada = false
                 },
-                new OrdenDePagoVista()
+                new OrdenDePagoVista(new OrdenDePago())
                 {
                     Proveedor = "marquitos SRL",
                     TotalAPagar = 10000,
                     EstaPagada = false
                 },
-                new OrdenDePagoVista()
+                new OrdenDePagoVista(new OrdenDePago())
                 {
                     Proveedor = "susana SRL",
                     TotalAPagar = 10000,

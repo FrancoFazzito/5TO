@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Mail;
 
-namespace WebAppSmartAssembly.RealizarCompra
+namespace WebAppSmartAssembly
 {
     public class Compra
     {
@@ -15,9 +15,7 @@ namespace WebAppSmartAssembly.RealizarCompra
             ComponentesAcomprar = new List<Componente>();
         }
 
-        public Proveedor Proveedor { get; set; }
-
-        internal List<Compra> ObtenerComprasAprobadas()
+        public List<Compra> ObtenerComprasAprobadas()
         {
             return DAL.ObtenerComprasAprobadas();
         }
@@ -27,49 +25,16 @@ namespace WebAppSmartAssembly.RealizarCompra
             return DAL.ObtenerComprasEnRevision();
         }
 
-        public decimal PrecioAPagar 
-        { 
-            get
-            { 
-                return ComponentesAcomprar.Sum(componente => componente.Precio);
-            } 
-        }
-
-        public decimal CantidadAComprar
+        public void RealizarCompra(List<ItemCompra> itemsCompra)
         {
-            get
+            foreach (var itemCompras in itemsCompra.GroupBy(x => x.ProveedorPrecioMasBajo.Id).ToList())
             {
-                return ComponentesAcomprar.Count;
-            }
-        }
-
-        public string Estado { get; set; }
-
-        public bool EstaPagada { get; set; }
-        public List<Componente> ComponentesAcomprar { get; set; }
-
-        public void RealizarCompra(List<ComponenteProveedor> componentesProveedoresCargados)
-        {
-            foreach (var componentesProveedores in componentesProveedoresCargados.GroupBy(x => x.ProveedorPrecioMasBajo.Id).ToList())
-            {
-                foreach (var componenteProveedor in componentesProveedores)
+                foreach (var item in itemCompras)
                 {
-                    AgregarComponentes(componenteProveedor.Componente, componenteProveedor.Cantidad);
+                    AgregarComponentes(item.Componente, item.Cantidad);
                 }
-                AltaOrdenDeCompra(componentesProveedores.Key);
+                AltaOrdenDeCompra(itemCompras.Key);
             }
-        }
-
-        internal void EntregarOrdenDeCompra()
-        {
-            Estado = new EstadoCompra().GetEstadoCompraPorNombre("Entregada");
-            DAL.ActualizarStock(ComponentesAcomprar);
-        }
-
-        internal void EntregarParcialmenteOrdenDeCompra()
-        {
-            Estado = new EstadoCompra().GetEstadoCompraPorNombre("Entregada parcialmente");
-            DAL.ActualizarStock(ComponentesAcomprar);
         }
 
         private void AgregarComponentes(Componente componente, int cantidad)
@@ -96,6 +61,18 @@ namespace WebAppSmartAssembly.RealizarCompra
             DAL.AltaCompra(compra);
         }
 
+        public void EntregarOrdenDeCompra()
+        {
+            Estado = new EstadoCompra().GetEstadoCompraPorNombre("Entregada");
+            DAL.ActualizarStock(ComponentesAcomprar);
+        }
+
+        public void EntregarParcialmenteOrdenDeCompra()
+        {
+            Estado = new EstadoCompra().GetEstadoCompraPorNombre("Entregada parcialmente");
+            DAL.ActualizarStock(ComponentesAcomprar);
+        }
+
         public void ConfirmarOrdenDeCompra(Compra compra)
         {
             DAL.ConfirmarOrdenDeCompra(compra);
@@ -110,5 +87,29 @@ namespace WebAppSmartAssembly.RealizarCompra
         {
             clienteSmtp = new SmtpClient();
         }
+
+        public decimal PrecioAPagar 
+        { 
+            get
+            { 
+                return ComponentesAcomprar.Sum(componente => componente.Precio);
+            } 
+        }
+
+        public decimal CantidadAComprar
+        {
+            get
+            {
+                return ComponentesAcomprar.Count;
+            }
+        }
+
+        public string Estado { get; set; }
+
+        public bool EstaPagada { get; set; }
+        
+        public List<Componente> ComponentesAcomprar { get; set; }
+
+        public Proveedor Proveedor { get; set; }
     }
 }

@@ -19,7 +19,7 @@ namespace WebAppSmartAssembly.RealizarCompra
             //crear objetos vista con esa coleccion
             List<CompraVista> compraVistas = new List<CompraVista>
             {
-                new CompraVista()
+                new CompraVista(new Compra())
                 {
                     Id = 1,
                     Estado = "Aprobada",
@@ -27,15 +27,15 @@ namespace WebAppSmartAssembly.RealizarCompra
                     PrecioAPagar = 1000000,
                     Proveedor = "Jose SRL"
                 },
-                new CompraVista()
+                new CompraVista(new Compra())
                 {
                     Id = 2,
                     Estado = "Aprobada",
                     EstaPagada = false,
                     PrecioAPagar = 1000000,
-                    Proveedor = "Import trucho SA"
+                    Proveedor = "Import test SA"
                 },
-                new CompraVista()
+                new CompraVista(new Compra())
                 {
                     Id = 3,
                     Estado = "Aprobada",
@@ -44,7 +44,8 @@ namespace WebAppSmartAssembly.RealizarCompra
                     Proveedor = "Pepe gpus SRL"
                 }
             };
-            
+            GridView1.DataSource = compraVistas;
+            GridView1.DataBind();
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -52,7 +53,7 @@ namespace WebAppSmartAssembly.RealizarCompra
             Compra compra = new Compra();
             List<Componente> componentesRecibidos = new List<Componente>();
 
-            OrdenDePago ordenPago = new OrdenDePago(compra.Proveedor, componentesRecibidos);
+            OrdenDePago ordenPago = new OrdenDePago(compra, compra.Proveedor, componentesRecibidos);
 
             if (CheckBox1.Checked || compra.CantidadAComprar == int.Parse(TextBox1.Text))
             {
@@ -64,7 +65,7 @@ namespace WebAppSmartAssembly.RealizarCompra
             }
 
             ordenPago.EmitirOrdenDePago();
-            Recibo recibo = new Recibo(compra.Proveedor, componentesRecibidos);
+            Recibo recibo = new Recibo(compra, compra.Proveedor, componentesRecibidos);
             recibo.EmitirRecibo();
         }
     }

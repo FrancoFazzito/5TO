@@ -26,11 +26,13 @@
         &nbsp;</p>
     <p>
         Id compra:
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TextBox1" runat="server" ReadOnly="True" TextMode="Number"></asp:TextBox>
     </p>
     <p>
         Componente:
         <asp:DropDownList ID="DropDownList1" runat="server">
+            <asp:ListItem>Ryzen 5 3400 G</asp:ListItem>
+            <asp:ListItem>Ryzen 7 5600x</asp:ListItem>
         </asp:DropDownList>
     </p>
     <p>
@@ -42,7 +44,7 @@
         <asp:Button ID="Button2" runat="server" Text="Agregar a componentes recibidos" />
     </p>
     <p>
-    </p>
+        Componentes recibidos:</p>
     <asp:BulletedList ID="BulletedList1" runat="server">
         <asp:ListItem>Cantidad: 3 - Ryzen 5 3600G</asp:ListItem>
     </asp:BulletedList>

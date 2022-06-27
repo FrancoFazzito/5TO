@@ -1,8 +1,8 @@
-﻿namespace WebAppSmartAssembly.RealizarCompra
+﻿namespace WebAppSmartAssembly
 {
-    public class ComponenteProveedor
+    public class ItemCompra
     {
-        public ComponenteProveedor(Componente componente, Proveedor proveedorPrecioMasBajo)
+        public ItemCompra(Componente componente, Proveedor proveedorPrecioMasBajo)
         {
             Componente = componente;
             ProveedorPrecioMasBajo = proveedorPrecioMasBajo;

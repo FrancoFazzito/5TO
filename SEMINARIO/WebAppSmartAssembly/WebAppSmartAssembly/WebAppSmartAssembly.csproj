@@ -177,7 +177,7 @@
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Compra\Compra.cs" />
-    <Compile Include="Compra\CompraVista.cs" />
+    <Compile Include="Compra\Vista\CompraVista.cs" />
     <Compile Include="Compra\EstadoCompra.cs" />
     <Compile Include="RealizarCompra\AprobacionCompra.aspx.cs">
       <DependentUpon>AprobacionCompra.aspx</DependentUpon>
@@ -187,10 +187,10 @@
       <DependentUpon>AprobacionCompra.aspx</DependentUpon>
     </Compile>
     <Compile Include="Compra\Proveedor.cs" />
-    <Compile Include="Compra\ComponenteProveedor.cs" />
+    <Compile Include="Compra\ItemCompra.cs" />
     <Compile Include="Compra\OrdenDePago.cs" />
     <Compile Include="Compra\Recibo.cs" />
-    <Compile Include="Compra\OrdenDePagoVista.cs" />
+    <Compile Include="Compra\Vista\OrdenDePagoVista.cs" />
     <Compile Include="RealizarCompra\PagarOrdenDePago.aspx.cs">
       <DependentUpon>PagarOrdenDePago.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
