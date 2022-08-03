@@ -1,0 +1,43 @@
+Problema 01
+Sea una M/M/2 tal que E(T) es 0,15 seg/cli siendo  μ  = 50 cli/seg para cada servidor. Hallar E(n) y λ.
+Respuesta
+E(n) = 13,76
+λ = 93 cli/seg  
+
+Problema 02
+Sea una M/M/2 con servidores de la misma velocidad, tal que E(T) es 0,085 seg/cli siendo  μ  = 12 cli/seg para cada servidor. Hallar E(n) y λ.
+Respuesta
+E(n) = 0,2856
+λ = 3,36 cli/seg
+
+Problema 03
+Sea un sistema de cola única y un solo servidor  tal que los arribos se distribuyen  Poisson con λ = 28 cli\seg y los tiempos de servicios son todos iguales entre si siendo Ts = 0,025 seg\cli.  Hallar E(n) y E(T).
+Respuesta
+E(n) = 1,5166
+E(T) = 0,0541 seg/cli
+
+Problema 04
+Sea un sistema de cola unica y un solo servidor tal que los arribos se distribuyen Poisson y los tiempos de servicios se distribuyen Gamma con un desvio estandar 0,02 seg/cli y la tasa de arribos es 20 cli/seg y la tasa de servicio es de 30 cli/seg. Hallar E(n) y E(T).
+Respuesta
+E(n) = 1,5729
+E(T) = 0,0786 cli/seg
+
+Problema 05
+Se tiene un M/M/1 cuya tasa de arribos es de 40 cli/seg y la tasa de servicio es de 48 cli/seg. Se ha verificado que el servidor resulta insuficiente y solo se dispone de otro servidor cuya tasa de servicio es de 8 cli/seg. Determinar A) Es conveniente agregar el servidor lentosin seleccion de servidor
+B) Si A es afirmativo, hallar π0 y Ñ
+C) El caso con seleccion de servidor podria aplicarse
+D) Si el caso C es afirmativo. Hallar π0 y Ñ
+Respuesta
+A) Si conviene agregar el servidor sin seleccion de servidor, 0,8333 > 0,5650
+B) π0 = 0,0892, Ñ = 3,1877
+C) Si conviene ......
+D) π0 = 0,12, Ñ = 3,0734
+
+Problema 06
+Sea un sistema de colas con prioridades que atienden clientes clase 1 y clase 2. En el sistema hay un cliente clase 2 en el servidor al que le faltan 38 mseg para completar su atención, en la cola hay 505 clientes clase 2 cuyo tiempo de servicio es 100 mseg\cli y hay 5 clientes clase 1 cuyo tiempo de servicio es 58 mseg\cli. Llega un nuevo cliente clase 1. ¿Cuánto permanecerá en el sistema y cuanto tendrá que esperar en cola?
+Respuesta:
+W1 = 386 mseg
+Wq1 = 328 mseg
+
+Problema 07
+Sea un sistema de colas tándem formado por 2 subsistemas, realizar el diagrama de estado, hasta el nivel que permita deducir la ecuación para el cálculo de π2,2 y deducirla.
